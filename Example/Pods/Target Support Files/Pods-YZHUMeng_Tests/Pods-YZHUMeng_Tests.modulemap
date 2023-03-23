@@ -1,0 +1,6 @@
+framework module Pods_YZHUMeng_Tests {
+  umbrella header "Pods-YZHUMeng_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

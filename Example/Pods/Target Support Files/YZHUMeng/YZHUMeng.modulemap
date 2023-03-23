@@ -1,0 +1,6 @@
+framework module YZHUMeng {
+  umbrella header "YZHUMeng-umbrella.h"
+
+  export *
+  module * { export * }
+}
