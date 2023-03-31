@@ -6,94 +6,188 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		09FABB7D06BB8D3958515FB15B4E7971 /* UMCommon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EE9C0A2584B5E37BDC922A70375E3B05 /* Build configuration list for PBXAggregateTarget "UMCommon" */;
+			buildPhases = (
+			);
+			dependencies = (
+				3EC8D38707591E9114C285C8F690DDED /* PBXTargetDependency */,
+			);
+			name = UMCommon;
+		};
+		0B9AED7CD0D7CCBD4AC30138F058D591 /* UMCommonLog */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 221BE98DDCAC6A6ECE0C773DFA2D6296 /* Build configuration list for PBXAggregateTarget "UMCommonLog" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UMCommonLog;
+		};
+		CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 222C3D84F9A81FACDEB024523B4EF84B /* Build configuration list for PBXAggregateTarget "UMDevice" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UMDevice;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		19F50BBA97902AC2E1DB246A58F5FB55 /* YZHUMeng-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D545ED328894E181DB489A63C9F30 /* YZHUMeng-dummy.m */; };
-		51A3C5BCEA99F2839B4D1CFD56C7827D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3F0DC8EC2899424D6353E6C7AC549DE3 /* YZHUMeng-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC42CCB592831FA4E5B7E953226CD9 /* YZHUMeng-dummy.m */; };
+		4E9CE7277D0F603673F198DBF6935733 /* YZHUMengManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC719841D5AF3491945486FE1FC1BEF /* YZHUMengManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55369406DFC7CDE20E99DEC38CFAB94D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6F40DAF00FE7D7998563B0DD88E2CFFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AFA3A21A73963C3ABC54EED7BE4B13A4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 865442EB3DC2A4B8E05B4350066EDE4A /* ReplaceMe.m */; };
-		B4A2829055FB40D3C9DDCCD0D0EDD5DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9B34AF8A0ABA0B39356759C8FD20654B /* Pods-YZHUMeng_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AB3802E8791A56FDA531AAD7FF6C14 /* Pods-YZHUMeng_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2C327BB85219FA52EBC46FB0E486EAE /* Pods-YZHUMeng_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B87EC53998D8C76077BC6CC6633B4AAC /* Pods-YZHUMeng_Example-dummy.m */; };
+		B77A38706981D45B620631B60D89754A /* YZHUMeng-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F245A5B76A29C1D531EC55ACCB62C85 /* YZHUMeng-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCABB40A9F0C2582CEC8019274A0546C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C8C1B08F70524048A93ADE262DFFD02D /* Pods-YZHUMeng_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A403260B42B121F121B2622C6B26CB2D /* Pods-YZHUMeng_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D30B1201CCDE9D4924A495AF38F2A6CF /* Pods-YZHUMeng_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437135B923C08547344DDE91BC9C58C /* Pods-YZHUMeng_Example-dummy.m */; };
+		DD5FCB84EF762BC8A9D466DACF8E29D5 /* YZHUMeng.h in Headers */ = {isa = PBXBuildFile; fileRef = 5513084727540CCB62B12CE57BFD0E9C /* YZHUMeng.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF7B5B8D19B2B62858F4389BE8D566B7 /* Pods-YZHUMeng_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B35AE27D4EB5A6FE49F66F9FE7EE5CA /* Pods-YZHUMeng_Tests-dummy.m */; };
-		F0C9608B76D04199FBD87C805F64E395 /* YZHUMeng-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5385287AFE6112D248BD99FAE57F32 /* YZHUMeng-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC6699E1CB7D779CEF27DC383FFB4FC6 /* Pods-YZHUMeng_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 450B978CE1345B6A4BB8AD42E225235B /* Pods-YZHUMeng_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2299D2D3A4A69FB28DBB77C04F4DED /* YZHUMengManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1852414705491B1F6578CE62F8DC1B4 /* YZHUMengManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		214903CA52789078AB67E8874416DDDA /* PBXContainerItemProxy */ = {
+		002629F13D9E66481E39DE19B4E58694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FABB7D06BB8D3958515FB15B4E7971;
+			remoteInfo = UMCommon;
+		};
+		0CCC5EE63FF8D557BBB06ACCCA157289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FABB7D06BB8D3958515FB15B4E7971;
+			remoteInfo = UMCommon;
+		};
+		478BF100CD118E60662BFC6D148316D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B9AED7CD0D7CCBD4AC30138F058D591;
+			remoteInfo = UMCommonLog;
+		};
+		9C922E479514E1D7E2B287FE29623994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B9AED7CD0D7CCBD4AC30138F058D591;
+			remoteInfo = UMCommonLog;
+		};
+		A0F0A8F04DD62A296EBA2721CA6A8F41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D09DC34DE651B56832C65EC06D0A264A;
 			remoteInfo = YZHUMeng;
 		};
-		76B9957CF77203226D09578342046C5B /* PBXContainerItemProxy */ = {
+		B47F7632BADBCE95DF3B5DCC675A1C73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB9AD2C3CFC208BFBE1F22F5EC3E1FC;
+			remoteInfo = UMDevice;
+		};
+		BEBA4390BEAA0E9DF2E27873670B7A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB9AD2C3CFC208BFBE1F22F5EC3E1FC;
+			remoteInfo = UMDevice;
+		};
+		C9444D44A8A1C865CDD20B6EF141BD73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 71AAF35A535CEFCEBCE7A3EF2D754B08;
 			remoteInfo = "Pods-YZHUMeng_Example";
 		};
+		DF7D2C4DE58063238CEC0312449AA08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB9AD2C3CFC208BFBE1F22F5EC3E1FC;
+			remoteInfo = UMDevice;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03FB19843214E30C2B401254857B4AA3 /* UMCommonLog.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMCommonLog.bundle; path = UMCommonLog/UMCommonLog.bundle; sourceTree = "<group>"; };
 		062663774E200358E93E6BA1F241ED36 /* Pods-YZHUMeng_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YZHUMeng_Tests.modulemap"; sourceTree = "<group>"; };
-		1E6C08C6C9586D2298443F3064F3B091 /* YZHUMeng.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YZHUMeng.modulemap; sourceTree = "<group>"; };
-		23EBBC2E24B43116936419BD85836D5C /* YZHUMeng-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YZHUMeng-Info.plist"; sourceTree = "<group>"; };
-		2D772C3FE5BCE08D5D0AA198071AD244 /* Pods-YZHUMeng_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZHUMeng_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CF60D588B510CED5731D8D64A009E79 /* UMDevice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMDevice.release.xcconfig; sourceTree = "<group>"; };
 		316F3A1F10EC5688A959B45DD9BA6BFE /* Pods-YZHUMeng_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YZHUMeng_Example"; path = Pods_YZHUMeng_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		450B978CE1345B6A4BB8AD42E225235B /* Pods-YZHUMeng_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YZHUMeng_Example-umbrella.h"; sourceTree = "<group>"; };
+		3B25DA1943B352D7BC1236C48868C0CE /* Pods-YZHUMeng_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZHUMeng_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D932C9A0188D6157C8AFD7C152B823C /* YZHUMeng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZHUMeng.debug.xcconfig; sourceTree = "<group>"; };
+		44694FE7B5BB683A3C445283FF175677 /* YZHUMeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZHUMeng.release.xcconfig; sourceTree = "<group>"; };
 		48DE0D2FBBD2AB4AEE40356A6481FAB6 /* Pods-YZHUMeng_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZHUMeng_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		491492D9FB4AC41A62B8ED91181D9F62 /* YZHUMeng.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YZHUMeng.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		50A74DD5AC0F91D92758252595D2EA1C /* Pods-YZHUMeng_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZHUMeng_Tests-Info.plist"; sourceTree = "<group>"; };
-		5E567FB3BB4F492375DE161EB7A2DEA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		603D545ED328894E181DB489A63C9F30 /* YZHUMeng-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YZHUMeng-dummy.m"; sourceTree = "<group>"; };
-		6437135B923C08547344DDE91BC9C58C /* Pods-YZHUMeng_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YZHUMeng_Example-dummy.m"; sourceTree = "<group>"; };
-		670EF0AE7FA8F11F3C057D42E2FF8158 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5513084727540CCB62B12CE57BFD0E9C /* YZHUMeng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZHUMeng.h; path = YZHUMeng/Classes/YZHUMeng.h; sourceTree = "<group>"; };
+		564FB9E49D688D2F4A69CF16412DBF9B /* UMDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMDevice.framework; path = UMDevice_2.2.1/UMDevice.framework; sourceTree = "<group>"; };
+		5EDC42CCB592831FA4E5B7E953226CD9 /* YZHUMeng-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YZHUMeng-dummy.m"; sourceTree = "<group>"; };
+		674822C6A3D19CEAB4A9742FC4CDB696 /* Pods-YZHUMeng_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZHUMeng_Example-Info.plist"; sourceTree = "<group>"; };
+		67C57D9B4C1F8E478F7CD1954EE71CBB /* Pods-YZHUMeng_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YZHUMeng_Example.modulemap"; sourceTree = "<group>"; };
+		71B5A8BA464301C4DC7D5D7A65F3A108 /* UMCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCommon.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77EA7F26A2C811C5E8F8D3555FD4677B /* YZHUMeng.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YZHUMeng.modulemap; sourceTree = "<group>"; };
+		783994AEB056671DEA4F475678E01664 /* Pods-YZHUMeng_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZHUMeng_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		79020D7669FBA7112CB7A4E322D122E7 /* Pods-YZHUMeng_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YZHUMeng_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B35AE27D4EB5A6FE49F66F9FE7EE5CA /* Pods-YZHUMeng_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YZHUMeng_Tests-dummy.m"; sourceTree = "<group>"; };
-		7B7514B35F0FF95C125A453B5CD792B9 /* Pods-YZHUMeng_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZHUMeng_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		85840172638482DABEE258A46E9DF53A /* YZHUMeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZHUMeng.release.xcconfig; sourceTree = "<group>"; };
-		865442EB3DC2A4B8E05B4350066EDE4A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YZHUMeng/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		8B5385287AFE6112D248BD99FAE57F32 /* YZHUMeng-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZHUMeng-umbrella.h"; sourceTree = "<group>"; };
+		7F245A5B76A29C1D531EC55ACCB62C85 /* YZHUMeng-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZHUMeng-umbrella.h"; sourceTree = "<group>"; };
+		822C297E63BDEFB26FF39E14E0CCC3D8 /* Pods-YZHUMeng_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZHUMeng_Example-resources.sh"; sourceTree = "<group>"; };
+		8B614A9E53B2F115E79D96E74DBF2258 /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommonLog.framework; path = UMCommonLog/UMCommonLog.framework; sourceTree = "<group>"; };
+		929F0872DAB3EAD1E9F9816ADC45DC28 /* UMDevice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMDevice.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A403260B42B121F121B2622C6B26CB2D /* Pods-YZHUMeng_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YZHUMeng_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A5AB3802E8791A56FDA531AAD7FF6C14 /* Pods-YZHUMeng_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YZHUMeng_Example-umbrella.h"; sourceTree = "<group>"; };
 		A88F6A651C845F6837630FFEA76F565B /* YZHUMeng */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YZHUMeng; path = YZHUMeng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8FA8FA66F457C906E92A4F72CA468BA /* Pods-YZHUMeng_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZHUMeng_Example-Info.plist"; sourceTree = "<group>"; };
+		ABC719841D5AF3491945486FE1FC1BEF /* YZHUMengManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZHUMengManager.h; path = YZHUMeng/Classes/YZHUMengManager.h; sourceTree = "<group>"; };
+		AED22ED650EBDF88FC009DE792304A1C /* UMCommonLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCommonLog.debug.xcconfig; sourceTree = "<group>"; };
 		B05A317F33751729CBCD24302651B503 /* Pods-YZHUMeng_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZHUMeng_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B7B1B1DD1BDA34936A729B3D060B955D /* Pods-YZHUMeng_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YZHUMeng_Example.modulemap"; sourceTree = "<group>"; };
-		B928A88E5CBC45CD9DE7DEC609A5CE8C /* YZHUMeng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZHUMeng.debug.xcconfig; sourceTree = "<group>"; };
-		C2732BCBD9DCCA33370C47460BE0561E /* Pods-YZHUMeng_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YZHUMeng_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CD0254FE86D10DF19B11DC5890FFEB14 /* YZHUMeng.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YZHUMeng.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B208F216932149CF0D0D6D1FD63DBF15 /* YZHUMeng-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZHUMeng-prefix.pch"; sourceTree = "<group>"; };
+		B87EC53998D8C76077BC6CC6633B4AAC /* Pods-YZHUMeng_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YZHUMeng_Example-dummy.m"; sourceTree = "<group>"; };
+		C8D66AB65372778E599F32160CD53E1D /* Pods-YZHUMeng_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZHUMeng_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CD6BA951F54E086F64923820E5F60CC1 /* YZHUMeng-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YZHUMeng-Info.plist"; sourceTree = "<group>"; };
+		D1852414705491B1F6578CE62F8DC1B4 /* YZHUMengManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZHUMengManager.m; path = YZHUMeng/Classes/YZHUMengManager.m; sourceTree = "<group>"; };
 		D64424D5914E37FBFD8B8F88DAC8DEBC /* Pods-YZHUMeng_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YZHUMeng_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DB3DC9350F59FA519CA94D1F004EFFD2 /* Pods-YZHUMeng_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZHUMeng_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E2BCBE1A9BDEBF71DD7C76E8C56EC9C1 /* Pods-YZHUMeng_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZHUMeng_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E745BE4F1779967DB8576F0A87018421 /* YZHUMeng-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZHUMeng-prefix.pch"; sourceTree = "<group>"; };
+		DFA826C9DC18E5EEA3CE6E444B5AA18C /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = UMCommon_7.3.8/UMCommon.framework; sourceTree = "<group>"; };
+		E083703F06C5D6B6CD525BBB7127D026 /* UMCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCommon.release.xcconfig; sourceTree = "<group>"; };
+		E4DE8A11E260728333E771376CD2EECD /* UMCommonLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCommonLog.release.xcconfig; sourceTree = "<group>"; };
+		EBCA2A7F71AC466382C15A054670B9FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F87EA559F4D75F6C99F60E8369F5F3FC /* Pods-YZHUMeng_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YZHUMeng_Tests"; path = Pods_YZHUMeng_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1143A726F03D6C4625C2B99BC4348E /* Pods-YZHUMeng_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZHUMeng_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB545E1F384A905FDE0FE700366FA72C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61C3C5C6CD317C54F04DAE6E3F87344F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51A3C5BCEA99F2839B4D1CFD56C7827D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6C99C5E690F321FDAEA8265F3343E647 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4A2829055FB40D3C9DDCCD0D0EDD5DA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B7A959420DB33B02CE559D6B5C7EC429 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6F40DAF00FE7D7998563B0DD88E2CFFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC584B6189A836E1272C30C24696C76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55369406DFC7CDE20E99DEC38CFAB94D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF9D95F133497C0405550F838ACB4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCABB40A9F0C2582CEC8019274A0546C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,10 +197,20 @@
 		022FA64DAE2B5C5B6AB0558150CD6C02 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				92F7306C9F06F55D85C343B0D7AE90FB /* Pods-YZHUMeng_Example */,
+				C2092F03ED53A1559CA9A8917AE48A6E /* Pods-YZHUMeng_Example */,
 				2B5A7E5CE41A1DFDD6F2822172952D35 /* Pods-YZHUMeng_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		115CAC4830C9557BBE105CFEEAB75C29 /* UMCommon */ = {
+			isa = PBXGroup;
+			children = (
+				8606D970FA5B55A4B9EEBB9EB8F05C09 /* Frameworks */,
+				8F721D2B8CA72B4BC04D4560EFC7D289 /* Support Files */,
+			);
+			name = UMCommon;
+			path = UMCommon;
 			sourceTree = "<group>";
 		};
 		2B5A7E5CE41A1DFDD6F2822172952D35 /* Pods-YZHUMeng_Tests */ = {
@@ -125,6 +229,14 @@
 			path = "Target Support Files/Pods-YZHUMeng_Tests";
 			sourceTree = "<group>";
 		};
+		324F4377552873AE3B842872FE1C54F1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF088944164AFDD7FD89876CCF19934D /* YZHUMeng */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		35B061FEB74F3FD6D4A3E109F5CD8016 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +247,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3CBF9A56A0E6C000605B7408D210F200 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03FB19843214E30C2B401254857B4AA3 /* UMCommonLog.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,55 +263,118 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		79E730BD279DB9B6784CA7D310565215 /* Support Files */ = {
+		65E2B3809C3A95635B7EE0DE7A075975 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E6C08C6C9586D2298443F3064F3B091 /* YZHUMeng.modulemap */,
-				603D545ED328894E181DB489A63C9F30 /* YZHUMeng-dummy.m */,
-				23EBBC2E24B43116936419BD85836D5C /* YZHUMeng-Info.plist */,
-				E745BE4F1779967DB8576F0A87018421 /* YZHUMeng-prefix.pch */,
-				8B5385287AFE6112D248BD99FAE57F32 /* YZHUMeng-umbrella.h */,
-				B928A88E5CBC45CD9DE7DEC609A5CE8C /* YZHUMeng.debug.xcconfig */,
-				85840172638482DABEE258A46E9DF53A /* YZHUMeng.release.xcconfig */,
+				AED22ED650EBDF88FC009DE792304A1C /* UMCommonLog.debug.xcconfig */,
+				E4DE8A11E260728333E771376CD2EECD /* UMCommonLog.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YZHUMeng";
+			path = "../Target Support Files/UMCommonLog";
 			sourceTree = "<group>";
 		};
-		92F7306C9F06F55D85C343B0D7AE90FB /* Pods-YZHUMeng_Example */ = {
+		758614A0768CEA3570AAC734747D5EEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B7B1B1DD1BDA34936A729B3D060B955D /* Pods-YZHUMeng_Example.modulemap */,
-				C2732BCBD9DCCA33370C47460BE0561E /* Pods-YZHUMeng_Example-acknowledgements.markdown */,
-				2D772C3FE5BCE08D5D0AA198071AD244 /* Pods-YZHUMeng_Example-acknowledgements.plist */,
-				6437135B923C08547344DDE91BC9C58C /* Pods-YZHUMeng_Example-dummy.m */,
-				DB3DC9350F59FA519CA94D1F004EFFD2 /* Pods-YZHUMeng_Example-frameworks.sh */,
-				A8FA8FA66F457C906E92A4F72CA468BA /* Pods-YZHUMeng_Example-Info.plist */,
-				450B978CE1345B6A4BB8AD42E225235B /* Pods-YZHUMeng_Example-umbrella.h */,
-				7B7514B35F0FF95C125A453B5CD792B9 /* Pods-YZHUMeng_Example.debug.xcconfig */,
-				E2BCBE1A9BDEBF71DD7C76E8C56EC9C1 /* Pods-YZHUMeng_Example.release.xcconfig */,
+				8B614A9E53B2F115E79D96E74DBF2258 /* UMCommonLog.framework */,
 			);
-			name = "Pods-YZHUMeng_Example";
-			path = "Target Support Files/Pods-YZHUMeng_Example";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C8DEC3BC76754419E8291E432CC4E479 /* YZHUMeng */ = {
+		81770750AC0487B5240887F18C4CF9EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				865442EB3DC2A4B8E05B4350066EDE4A /* ReplaceMe.m */,
-				DC1671EAD5486DF932C5F98200333C55 /* Pod */,
-				79E730BD279DB9B6784CA7D310565215 /* Support Files */,
+				564FB9E49D688D2F4A69CF16412DBF9B /* UMDevice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8606D970FA5B55A4B9EEBB9EB8F05C09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFA826C9DC18E5EEA3CE6E444B5AA18C /* UMCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F721D2B8CA72B4BC04D4560EFC7D289 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71B5A8BA464301C4DC7D5D7A65F3A108 /* UMCommon.debug.xcconfig */,
+				E083703F06C5D6B6CD525BBB7127D026 /* UMCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCommon";
+			sourceTree = "<group>";
+		};
+		9B3A0739479B7B3AAE278C4E86872C41 /* UMDevice */ = {
+			isa = PBXGroup;
+			children = (
+				81770750AC0487B5240887F18C4CF9EA /* Frameworks */,
+				EC07AD3805948D0AE7B84B8AFD507E89 /* Support Files */,
+			);
+			name = UMDevice;
+			path = UMDevice;
+			sourceTree = "<group>";
+		};
+		AF088944164AFDD7FD89876CCF19934D /* YZHUMeng */ = {
+			isa = PBXGroup;
+			children = (
+				5513084727540CCB62B12CE57BFD0E9C /* YZHUMeng.h */,
+				ABC719841D5AF3491945486FE1FC1BEF /* YZHUMengManager.h */,
+				D1852414705491B1F6578CE62F8DC1B4 /* YZHUMengManager.m */,
+				B66C4186A01537ABAA8DE067CCD6C658 /* Pod */,
+				EF2C52535AE2753FA35084FF85AA2049 /* Support Files */,
 			);
 			name = YZHUMeng;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		B66C4186A01537ABAA8DE067CCD6C658 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EBCA2A7F71AC466382C15A054670B9FF /* LICENSE */,
+				FB545E1F384A905FDE0FE700366FA72C /* README.md */,
+				491492D9FB4AC41A62B8ED91181D9F62 /* YZHUMeng.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0F5F26254A94E9A0B5D03092623E0DC /* UMCommonLog */ = {
+			isa = PBXGroup;
+			children = (
+				758614A0768CEA3570AAC734747D5EEB /* Frameworks */,
+				3CBF9A56A0E6C000605B7408D210F200 /* Resources */,
+				65E2B3809C3A95635B7EE0DE7A075975 /* Support Files */,
+			);
+			name = UMCommonLog;
+			path = UMCommonLog;
+			sourceTree = "<group>";
+		};
+		C2092F03ED53A1559CA9A8917AE48A6E /* Pods-YZHUMeng_Example */ = {
+			isa = PBXGroup;
+			children = (
+				67C57D9B4C1F8E478F7CD1954EE71CBB /* Pods-YZHUMeng_Example.modulemap */,
+				79020D7669FBA7112CB7A4E322D122E7 /* Pods-YZHUMeng_Example-acknowledgements.markdown */,
+				3B25DA1943B352D7BC1236C48868C0CE /* Pods-YZHUMeng_Example-acknowledgements.plist */,
+				B87EC53998D8C76077BC6CC6633B4AAC /* Pods-YZHUMeng_Example-dummy.m */,
+				674822C6A3D19CEAB4A9742FC4CDB696 /* Pods-YZHUMeng_Example-Info.plist */,
+				822C297E63BDEFB26FF39E14E0CCC3D8 /* Pods-YZHUMeng_Example-resources.sh */,
+				A5AB3802E8791A56FDA531AAD7FF6C14 /* Pods-YZHUMeng_Example-umbrella.h */,
+				783994AEB056671DEA4F475678E01664 /* Pods-YZHUMeng_Example.debug.xcconfig */,
+				C8D66AB65372778E599F32160CD53E1D /* Pods-YZHUMeng_Example.release.xcconfig */,
+			);
+			name = "Pods-YZHUMeng_Example";
+			path = "Target Support Files/Pods-YZHUMeng_Example";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FFC175F596533CC7A5423DD7C0A21701 /* Development Pods */,
+				324F4377552873AE3B842872FE1C54F1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D5BBE51FBAF506588E9609E7B78A60D4 /* Pods */,
 				35B061FEB74F3FD6D4A3E109F5CD8016 /* Products */,
 				022FA64DAE2B5C5B6AB0558150CD6C02 /* Targets Support Files */,
 			);
@@ -205,35 +388,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC1671EAD5486DF932C5F98200333C55 /* Pod */ = {
+		D5BBE51FBAF506588E9609E7B78A60D4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				670EF0AE7FA8F11F3C057D42E2FF8158 /* LICENSE */,
-				5E567FB3BB4F492375DE161EB7A2DEA4 /* README.md */,
-				CD0254FE86D10DF19B11DC5890FFEB14 /* YZHUMeng.podspec */,
+				115CAC4830C9557BBE105CFEEAB75C29 /* UMCommon */,
+				C0F5F26254A94E9A0B5D03092623E0DC /* UMCommonLog */,
+				9B3A0739479B7B3AAE278C4E86872C41 /* UMDevice */,
 			);
-			name = Pod;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		FFC175F596533CC7A5423DD7C0A21701 /* Development Pods */ = {
+		EC07AD3805948D0AE7B84B8AFD507E89 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8DEC3BC76754419E8291E432CC4E479 /* YZHUMeng */,
+				929F0872DAB3EAD1E9F9816ADC45DC28 /* UMDevice.debug.xcconfig */,
+				2CF60D588B510CED5731D8D64A009E79 /* UMDevice.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/UMDevice";
+			sourceTree = "<group>";
+		};
+		EF2C52535AE2753FA35084FF85AA2049 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77EA7F26A2C811C5E8F8D3555FD4677B /* YZHUMeng.modulemap */,
+				5EDC42CCB592831FA4E5B7E953226CD9 /* YZHUMeng-dummy.m */,
+				CD6BA951F54E086F64923820E5F60CC1 /* YZHUMeng-Info.plist */,
+				B208F216932149CF0D0D6D1FD63DBF15 /* YZHUMeng-prefix.pch */,
+				7F245A5B76A29C1D531EC55ACCB62C85 /* YZHUMeng-umbrella.h */,
+				3D932C9A0188D6157C8AFD7C152B823C /* YZHUMeng.debug.xcconfig */,
+				44694FE7B5BB683A3C445283FF175677 /* YZHUMeng.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YZHUMeng";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3BD850FD9850FDA321B69B4FAD7E4451 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0C9608B76D04199FBD87C805F64E395 /* YZHUMeng-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5845A870D94024A7A09BF486BEFE6115 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,11 +434,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4E28418848B51A451DD927626EBF805 /* Headers */ = {
+		C3877EA5F29C19849E2D6D68398A9EF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC6699E1CB7D779CEF27DC383FFB4FC6 /* Pods-YZHUMeng_Example-umbrella.h in Headers */,
+				9B34AF8A0ABA0B39356759C8FD20654B /* Pods-YZHUMeng_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFA5E59F277ABC45F7810EA0029FB6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5FCB84EF762BC8A9D466DACF8E29D5 /* YZHUMeng.h in Headers */,
+				B77A38706981D45B620631B60D89754A /* YZHUMeng-umbrella.h in Headers */,
+				4E9CE7277D0F603673F198DBF6935733 /* YZHUMengManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,17 +457,20 @@
 /* Begin PBXNativeTarget section */
 		71AAF35A535CEFCEBCE7A3EF2D754B08 /* Pods-YZHUMeng_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04FD3FFCA4BA4DB548810BE4B795D728 /* Build configuration list for PBXNativeTarget "Pods-YZHUMeng_Example" */;
+			buildConfigurationList = 7E3511639CED872D65A326F592C27CD7 /* Build configuration list for PBXNativeTarget "Pods-YZHUMeng_Example" */;
 			buildPhases = (
-				C4E28418848B51A451DD927626EBF805 /* Headers */,
-				2668C64B5015FB07BC292F15C56EB61E /* Sources */,
-				61C3C5C6CD317C54F04DAE6E3F87344F /* Frameworks */,
-				8392C4A9013FFBE778F9109DC5226F8E /* Resources */,
+				C3877EA5F29C19849E2D6D68398A9EF0 /* Headers */,
+				7EA95B6EF220668A85A156029EE76AA7 /* Sources */,
+				CEF9D95F133497C0405550F838ACB4AB /* Frameworks */,
+				39764A714158C6286271EB4A42E8042D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEF5CC98B24AA5BD77D4E84824240984 /* PBXTargetDependency */,
+				D7B087B7B1AC79570891703AC6507320 /* PBXTargetDependency */,
+				64EF80F2F4EDE1A7765EFFE2EF9AB0EE /* PBXTargetDependency */,
+				CE6CB9655B34D1563E4FD968B5033484 /* PBXTargetDependency */,
+				55EB593F7DFCEBCDB1E522872BC75145 /* PBXTargetDependency */,
 			);
 			name = "Pods-YZHUMeng_Example";
 			productName = Pods_YZHUMeng_Example;
@@ -284,7 +489,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DFEF7C987C8836B9FC18BCC6944B5993 /* PBXTargetDependency */,
+				4D7106637453E8AF2673602BB54E4EED /* PBXTargetDependency */,
 			);
 			name = "Pods-YZHUMeng_Tests";
 			productName = Pods_YZHUMeng_Tests;
@@ -293,16 +498,19 @@
 		};
 		D09DC34DE651B56832C65EC06D0A264A /* YZHUMeng */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC711F922F1345E7943802431B464809 /* Build configuration list for PBXNativeTarget "YZHUMeng" */;
+			buildConfigurationList = FD29AFC296615B28673D7A27C88F26C6 /* Build configuration list for PBXNativeTarget "YZHUMeng" */;
 			buildPhases = (
-				3BD850FD9850FDA321B69B4FAD7E4451 /* Headers */,
-				AB3F63B3FFDC0B1F95A620451928B915 /* Sources */,
-				6C99C5E690F321FDAEA8265F3343E647 /* Frameworks */,
-				4E6D813553D83BC21EFFF781458FE155 /* Resources */,
+				DAFA5E59F277ABC45F7810EA0029FB6D /* Headers */,
+				30ACD3ABC27DEDD27809E3F608F252B7 /* Sources */,
+				BC584B6189A836E1272C30C24696C76E /* Frameworks */,
+				582AD19E59A123734EA7AE5C2BD7D363 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5DBC379162F548A5C539D8BA991654DC /* PBXTargetDependency */,
+				77783EB74644EDC7C1CF154FC84E4948 /* PBXTargetDependency */,
+				94AFCD2FEDF99BAF12016718B118864F /* PBXTargetDependency */,
 			);
 			name = YZHUMeng;
 			productName = YZHUMeng;
@@ -333,13 +541,23 @@
 			targets = (
 				71AAF35A535CEFCEBCE7A3EF2D754B08 /* Pods-YZHUMeng_Example */,
 				C26E299454B2AE1AE39AADE4345B2895 /* Pods-YZHUMeng_Tests */,
+				09FABB7D06BB8D3958515FB15B4E7971 /* UMCommon */,
+				0B9AED7CD0D7CCBD4AC30138F058D591 /* UMCommonLog */,
+				CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */,
 				D09DC34DE651B56832C65EC06D0A264A /* YZHUMeng */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4E6D813553D83BC21EFFF781458FE155 /* Resources */ = {
+		39764A714158C6286271EB4A42E8042D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582AD19E59A123734EA7AE5C2BD7D363 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,30 +571,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8392C4A9013FFBE778F9109DC5226F8E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2668C64B5015FB07BC292F15C56EB61E /* Sources */ = {
+		30ACD3ABC27DEDD27809E3F608F252B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D30B1201CCDE9D4924A495AF38F2A6CF /* Pods-YZHUMeng_Example-dummy.m in Sources */,
+				3F0DC8EC2899424D6353E6C7AC549DE3 /* YZHUMeng-dummy.m in Sources */,
+				ED2299D2D3A4A69FB28DBB77C04F4DED /* YZHUMengManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB3F63B3FFDC0B1F95A620451928B915 /* Sources */ = {
+		7EA95B6EF220668A85A156029EE76AA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFA3A21A73963C3ABC54EED7BE4B13A4 /* ReplaceMe.m in Sources */,
-				19F50BBA97902AC2E1DB246A58F5FB55 /* YZHUMeng-dummy.m in Sources */,
+				A2C327BB85219FA52EBC46FB0E486EAE /* Pods-YZHUMeng_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +602,59 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEF5CC98B24AA5BD77D4E84824240984 /* PBXTargetDependency */ = {
+		3EC8D38707591E9114C285C8F690DDED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = YZHUMeng;
-			target = D09DC34DE651B56832C65EC06D0A264A /* YZHUMeng */;
-			targetProxy = 214903CA52789078AB67E8874416DDDA /* PBXContainerItemProxy */;
+			name = UMDevice;
+			target = CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */;
+			targetProxy = B47F7632BADBCE95DF3B5DCC675A1C73 /* PBXContainerItemProxy */;
 		};
-		DFEF7C987C8836B9FC18BCC6944B5993 /* PBXTargetDependency */ = {
+		4D7106637453E8AF2673602BB54E4EED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YZHUMeng_Example";
 			target = 71AAF35A535CEFCEBCE7A3EF2D754B08 /* Pods-YZHUMeng_Example */;
-			targetProxy = 76B9957CF77203226D09578342046C5B /* PBXContainerItemProxy */;
+			targetProxy = C9444D44A8A1C865CDD20B6EF141BD73 /* PBXContainerItemProxy */;
+		};
+		55EB593F7DFCEBCDB1E522872BC75145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YZHUMeng;
+			target = D09DC34DE651B56832C65EC06D0A264A /* YZHUMeng */;
+			targetProxy = A0F0A8F04DD62A296EBA2721CA6A8F41 /* PBXContainerItemProxy */;
+		};
+		5DBC379162F548A5C539D8BA991654DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCommon;
+			target = 09FABB7D06BB8D3958515FB15B4E7971 /* UMCommon */;
+			targetProxy = 0CCC5EE63FF8D557BBB06ACCCA157289 /* PBXContainerItemProxy */;
+		};
+		64EF80F2F4EDE1A7765EFFE2EF9AB0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCommonLog;
+			target = 0B9AED7CD0D7CCBD4AC30138F058D591 /* UMCommonLog */;
+			targetProxy = 478BF100CD118E60662BFC6D148316D4 /* PBXContainerItemProxy */;
+		};
+		77783EB74644EDC7C1CF154FC84E4948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCommonLog;
+			target = 0B9AED7CD0D7CCBD4AC30138F058D591 /* UMCommonLog */;
+			targetProxy = 9C922E479514E1D7E2B287FE29623994 /* PBXContainerItemProxy */;
+		};
+		94AFCD2FEDF99BAF12016718B118864F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMDevice;
+			target = CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */;
+			targetProxy = BEBA4390BEAA0E9DF2E27873670B7A78 /* PBXContainerItemProxy */;
+		};
+		CE6CB9655B34D1563E4FD968B5033484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMDevice;
+			target = CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */;
+			targetProxy = DF7D2C4DE58063238CEC0312449AA08D /* PBXContainerItemProxy */;
+		};
+		D7B087B7B1AC79570891703AC6507320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCommon;
+			target = 09FABB7D06BB8D3958515FB15B4E7971 /* UMCommon */;
+			targetProxy = 002629F13D9E66481E39DE19B4E58694 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,9 +692,42 @@
 			};
 			name = Debug;
 		};
-		1B77BA1E133C4238642CC85E7BD88758 /* Release */ = {
+		2319773E6668C71FAEEC292EA95C3FC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2BCBE1A9BDEBF71DD7C76E8C56EC9C1 /* Pods-YZHUMeng_Example.release.xcconfig */;
+			baseConfigurationReference = 783994AEB056671DEA4F475678E01664 /* Pods-YZHUMeng_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YZHUMeng_Example/Pods-YZHUMeng_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YZHUMeng_Example/Pods-YZHUMeng_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23D1FA210CC87A44D2731DA7130CEB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D66AB65372778E599F32160CD53E1D /* Pods-YZHUMeng_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -473,36 +759,57 @@
 			};
 			name = Release;
 		};
-		774DEEC0C4BAC97AE99CB844D5658B03 /* Debug */ = {
+		433882892F34B446479D4EB32BBAC020 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B7514B35F0FF95C125A453B5CD792B9 /* Pods-YZHUMeng_Example.debug.xcconfig */;
+			baseConfigurationReference = 929F0872DAB3EAD1E9F9816ADC45DC28 /* UMDevice.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YZHUMeng_Example/Pods-YZHUMeng_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YZHUMeng_Example/Pods-YZHUMeng_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5450204EA4DCF35B9D1F5B399049E5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF60D588B510CED5731D8D64A009E79 /* UMDevice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FCACE8796889C5331511C9C4855717D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E083703F06C5D6B6CD525BBB7127D026 /* UMCommon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76F39624C2E52C92CF0FDED451B80598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED22ED650EBDF88FC009DE792304A1C /* UMCommonLog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -565,6 +872,98 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9B512694DDCE3EA755F17C15BA3F7F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B5A8BA464301C4DC7D5D7A65F3A108 /* UMCommon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BEFC617CC69053D906F1F6A0D648D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44694FE7B5BB683A3C445283FF175677 /* YZHUMeng.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YZHUMeng/YZHUMeng-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YZHUMeng/YZHUMeng-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/YZHUMeng/YZHUMeng.modulemap";
+				PRODUCT_MODULE_NAME = YZHUMeng;
+				PRODUCT_NAME = YZHUMeng;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C23C7A09D2B0FF9E4F7161A7323E80B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D932C9A0188D6157C8AFD7C152B823C /* YZHUMeng.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YZHUMeng/YZHUMeng-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YZHUMeng/YZHUMeng-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/YZHUMeng/YZHUMeng.modulemap";
+				PRODUCT_MODULE_NAME = YZHUMeng;
+				PRODUCT_NAME = YZHUMeng;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB71DEFB35BEB92750948FE785734161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DE8A11E260728333E771376CD2EECD /* UMCommonLog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -634,69 +1033,6 @@
 			};
 			name = Debug;
 		};
-		DF17DC35C1545C1DA1B1939DE560F117 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85840172638482DABEE258A46E9DF53A /* YZHUMeng.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YZHUMeng/YZHUMeng-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YZHUMeng/YZHUMeng-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YZHUMeng/YZHUMeng.modulemap";
-				PRODUCT_MODULE_NAME = YZHUMeng;
-				PRODUCT_NAME = YZHUMeng;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FA71706FC5B74CA313228168E1EAB30D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B928A88E5CBC45CD9DE7DEC609A5CE8C /* YZHUMeng.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YZHUMeng/YZHUMeng-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YZHUMeng/YZHUMeng-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YZHUMeng/YZHUMeng.modulemap";
-				PRODUCT_MODULE_NAME = YZHUMeng;
-				PRODUCT_NAME = YZHUMeng;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FEBF05DEA30D7E0F7B103C5185708758 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48DE0D2FBBD2AB4AEE40356A6481FAB6 /* Pods-YZHUMeng_Tests.release.xcconfig */;
@@ -734,11 +1070,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04FD3FFCA4BA4DB548810BE4B795D728 /* Build configuration list for PBXNativeTarget "Pods-YZHUMeng_Example" */ = {
+		221BE98DDCAC6A6ECE0C773DFA2D6296 /* Build configuration list for PBXAggregateTarget "UMCommonLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				774DEEC0C4BAC97AE99CB844D5658B03 /* Debug */,
-				1B77BA1E133C4238642CC85E7BD88758 /* Release */,
+				76F39624C2E52C92CF0FDED451B80598 /* Debug */,
+				CB71DEFB35BEB92750948FE785734161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222C3D84F9A81FACDEB024523B4EF84B /* Build configuration list for PBXAggregateTarget "UMDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433882892F34B446479D4EB32BBAC020 /* Debug */,
+				5450204EA4DCF35B9D1F5B399049E5AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -752,6 +1097,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7E3511639CED872D65A326F592C27CD7 /* Build configuration list for PBXNativeTarget "Pods-YZHUMeng_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2319773E6668C71FAEEC292EA95C3FC8 /* Debug */,
+				23D1FA210CC87A44D2731DA7130CEB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C1E5F878C149273A644FC7876CA2BB96 /* Build configuration list for PBXNativeTarget "Pods-YZHUMeng_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -761,11 +1115,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC711F922F1345E7943802431B464809 /* Build configuration list for PBXNativeTarget "YZHUMeng" */ = {
+		EE9C0A2584B5E37BDC922A70375E3B05 /* Build configuration list for PBXAggregateTarget "UMCommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA71706FC5B74CA313228168E1EAB30D /* Debug */,
-				DF17DC35C1545C1DA1B1939DE560F117 /* Release */,
+				9B512694DDCE3EA755F17C15BA3F7F59 /* Debug */,
+				6FCACE8796889C5331511C9C4855717D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD29AFC296615B28673D7A27C88F26C6 /* Build configuration list for PBXNativeTarget "YZHUMeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23C7A09D2B0FF9E4F7161A7323E80B5 /* Debug */,
+				9BEFC617CC69053D906F1F6A0D648D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

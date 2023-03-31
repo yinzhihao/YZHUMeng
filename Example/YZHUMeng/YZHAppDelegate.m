@@ -8,6 +8,8 @@
 
 #import "YZHAppDelegate.h"
 
+#define APPKEY @"641c2564d64e686139525fca"
+
 @implementation YZHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

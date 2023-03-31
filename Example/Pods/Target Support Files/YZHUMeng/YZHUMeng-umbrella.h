@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "YZHUMeng.h"
+#import "YZHUMengManager.h"
 
 FOUNDATION_EXPORT double YZHUMengVersionNumber;
 FOUNDATION_EXPORT const unsigned char YZHUMengVersionString[];

@@ -1,6 +1,21 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## UMCommon
+
+Copyright 2011 - 2021 umeng.com. All rights reserved.
+
+
+## UMCommonLog
+
+Copyright 2011 - 2022 umeng.com. All rights reserved.
+
+
+## UMDevice
+
+Copyright 2011 - 2021 umeng.com. All rights reserved.
+
+
 ## YZHUMeng
 
 Copyright (c) 2023 yinzhihao <yzh115@zcsmart.com>
