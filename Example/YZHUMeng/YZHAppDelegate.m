@@ -7,6 +7,7 @@
 //
 
 #import "YZHAppDelegate.h"
+#import <YZHUMeng/YZHUMeng.h>
 
 #define APPKEY @"641c2564d64e686139525fca"
 
@@ -15,6 +16,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[YZHUMengManager shared] configUMengWithAppKey:APPKEY channel:nil logEnabled:YES];
     return YES;
 }
 
