@@ -44,6 +44,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)endEvent:(NSString *)eventId;
 
+- (void)event:(NSString *)eventId durations:(int)millisecond;
+
 @end
 
 NS_ASSUME_NONNULL_END

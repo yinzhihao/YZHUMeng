@@ -69,4 +69,9 @@
     [MobClick endEvent:eventId];
 }
 
+- (void)event:(NSString *)eventId durations:(int)millisecond {
+    [MobClick event:eventId durations:millisecond];
+}
+
+
 @end
