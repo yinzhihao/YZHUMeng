@@ -42,4 +42,6 @@ TODO: Add long description of the pod here.
   s.dependency 'UMCommon'
   s.dependency 'UMDevice'
   s.dependency 'UMCommonLog'
+  
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 armv7s arm64' }
 end

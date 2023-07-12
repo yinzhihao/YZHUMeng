@@ -3,10 +3,10 @@ PODS:
     - UMDevice
   - UMCommonLog (1.0.0)
   - UMDevice (2.2.1)
-  - YZHUMeng (0.1.0):
-    - UMCommon (~> 7.3.8)
-    - UMCommonLog (~> 1.0.0)
-    - UMDevice (~> 2.2.1)
+  - YZHUMeng (0.2.0):
+    - UMCommon
+    - UMCommonLog
+    - UMDevice
 
 DEPENDENCIES:
   - YZHUMeng (from `../`)
@@ -25,8 +25,8 @@ SPEC CHECKSUMS:
   UMCommon: fdb5bac9e7ec2aca4f9cfc0febf414b59ed302cb
   UMCommonLog: f3741161dc46e9f56f050e5ca331043f58fe7d4f
   UMDevice: 053478c4b4d7292f31f0a275c227d3c4007a5571
-  YZHUMeng: 2e6be49b84a12ced6fd3cd13a8fd37dcd74e4813
+  YZHUMeng: b119384b0e611d1d8893b0776ac2a80f305ab610
 
 PODFILE CHECKSUM: 2d622c348ec0da05d607b1b868e417b588522184
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1
